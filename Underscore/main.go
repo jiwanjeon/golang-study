@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	s := []int{100, 101, 102}
+	s := []int{100, 101, 122}
 	for v := range s {
 		fmt.Println(v) // index
 	}

@@ -48,11 +48,12 @@ func repetition(st string) map[string]int {
 		fmt.Println("wc: ", wc)
 		fmt.Println("word: ", word)
 
-		// TODO: How matched print out true or false
+		// TODO: How matched print out true or false --> is it the same as if in(python) & include(javascript)
 		_, matched := wc[word]
 		fmt.Println("matched: ", matched)
-		// fmt.Println(wc[word])
-		// fmt.Println(matched)
+		// The special form v, ok := someMap[key] retrieves the v value associated with key key,
+		//and also reports if key is in the map.
+
 		if matched {
 			wc[word] += 1
 		} else {
