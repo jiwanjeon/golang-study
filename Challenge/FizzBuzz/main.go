@@ -19,6 +19,7 @@ var reader = bufio.NewReader(os.Stdin)
 func main() {
 	inputValue := getInput("Input value is: ")
 	fmt.Println(inputValue)
+	fmt.Println("math.mod: ", math.Mod(inputValue, 3))
 
 	if math.Mod(inputValue, 3) == 0 && math.Mod(inputValue, 5) == 0 {
 		fmt.Print("fizzbuzz\n")
