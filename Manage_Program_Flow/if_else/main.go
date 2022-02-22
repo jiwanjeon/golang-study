@@ -4,6 +4,12 @@ import (
 	"fmt"
 )
 
+/*
+if  var declaration;  condition {
+	// code to be executed if condition is true
+}
+*/
+
 func main() {
 	theAnswer := 42
 	var result string
