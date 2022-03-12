@@ -1,3 +1,11 @@
+/* 
+	In Go, an interface is a custom type that other types are able to implement, 
+	which gives Go developers a powerful way to use abstraction. 
+	Interfaces are named collections of method signatures, and when other types implement all the required methods, 
+	they implicitly implement the interface.
+*/
+
+
 package main
 
 import "fmt"
